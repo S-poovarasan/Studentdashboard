@@ -1,0 +1,31 @@
+body{
+  text-align: center;
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+
+.toggle{
+  background-color: aqua;
+  
+  border-radius: 8%;
+  cursor: pointer;
+}
+.toggle:hover{
+  font-size:  large;
+}
+input{
+  border: 3px black solid;
+  border-radius: 7%;
+}
+.container.dark{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.container.dark.toggle{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
